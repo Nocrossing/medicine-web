@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="h_top container">
+    <div class="h_top_lf fl">
+      <img src="img/wei_03.png" alt="" />
+    </div>
+    <div class="h_top_rt fr">
+      <a href="">CH</a>
+      <span>|</span>
+      <a href="">EN</a>
+      <a href="">官方商城</a>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li role="presentation">
+          <a href="index.html">首页</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html">公司介绍</a>
+        </li>
+        <li role="presentation">
+          <a href="news_center.html">新闻中心</a>
+        </li>
+        <li role="presentation">
+          <a href="product.html">产品</a>
+        </li>
+        <li role="presentation">
+          <a href="research.html">研发中心</a>
+        </li>
+        <li role="presentation">
+          <a href="resources.html">人力资源</a>
+        </li>
+        <li role="presentation">
+          <a href="social_res.html">社会责任</a>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="搜索" />
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <div class="slogan">
+    <h1>您的健康就是我们的心愿</h1>
+    <p>Your health is our wish</p>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $(".navbar-nav>li a").each(function () {
+      if (this.href == window.location.href) {
+        $(this).parent().addClass("active");
+      }
+    });
+  });
+</script>

@@ -1,0 +1,153 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+header {
+  width: 100%;
+  height: 300px;
+  background: url(../img/qt_01.png) no-repeat;
+}
+header .navbar-default {
+  background-color: #ffffff;
+  border-style: none;
+}
+header .navbar-default .navbar-nav .active a {
+  color: #fff;
+}
+header .navbar-default .navbar-nav .active a:hover,
+header .navbar-default .navbar-nav .active a:link,
+header .navbar-default .navbar-nav .active a:focus {
+  color: #fff;
+  background-image: linear-gradient(0deg, #00a9e8 0%, #00e8e0 100%);
+}
+header .navbar-default .navbar-nav li a {
+  padding: 16px;
+}
+header .navbar-default .navbar-nav li a:hover,
+header .navbar-default .navbar-nav li a:focus {
+  color: #fff;
+  background-image: linear-gradient(0deg, #00a9e8 0%, #00e8e0 100%);
+}
+header .slogan {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+header .slogan h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+header .slogan p {
+  font-size: 24px;
+  opacity: 0.6;
+}
+.h_top {
+  height: 80px;
+  line-height: 80px;
+}
+.h_top_lf img {
+  height: 30px;
+}
+.h_top_rt a {
+  padding: 0 8px;
+}
+.h_top_rt a:first-child {
+  color: #000;
+}
+.h_top_rt a:nth-child(2),
+.h_top_rt a:nth-child(3) {
+  color: #777777;
+}
+.h_top_rt span {
+  color: #777777;
+}
+nav .form-group {
+  position: relative;
+}
+nav .form-group span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #00abe9;
+}
+.women {
+  width: 100%;
+  height: 288px;
+  background: #2c2b2b;
+}
+.wo1440 {
+  height: 288px;
+}
+.wo1440_l {
+  float: left;
+}
+.wo1440_r {
+  float: right;
+}
+.logo_w {
+  margin-top: 54px;
+  margin-bottom: 38px;
+}
+.wx_w,
+.wb_w {
+  float: left;
+}
+.wx_w {
+  margin-right: 12px;
+}
+.guanyu {
+  float: right;
+}
+.guanyu ul {
+  margin-right: -60px;
+  float: right;
+}
+.guanyu li {
+  list-style: none;
+  float: left;
+  font-size: 16px;
+  margin: 60px 60px 30px auto;
+  color: #dfdddd;
+}
+.xiahuax {
+  width: 100%;
+  height: 1px;
+  background: #4f4f4f;
+  overflow: hidden;
+}
+.lianxi_dian {
+  float: left;
+  font-size: 14px;
+  margin-top: 45px;
+  color: #dfdddd;
+}
+.lianxi_tb {
+  float: right;
+  font-size: 14px;
+  margin-top: 54px;
+  color: #dfdddd;
+}
+.lianxi_tb span {
+  margin-left: 18px;
+}
+.banquan {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 14px;
+  color: #bab9b9;
+  background: #262626;
+}
